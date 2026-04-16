@@ -164,3 +164,7 @@ app.put('/settings', requireAuth, async (req, res) => {
 app.listen(PORT, () => {
   console.log(`ClearBooks API démarrée sur le port ${PORT}`)
 })
+
+app.get('/', (req, res) => {
+  res.send('API is running 🚀')
+})
