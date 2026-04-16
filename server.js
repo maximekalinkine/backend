@@ -21,7 +21,7 @@ const supabase = createClient(
 // ── MIDDLEWARES ──────────────────────────────────────────────
 app.use(cors({
   origin: [
-    'https://your-app.netlify.app',  // ← remplace par ton URL Netlify
+    'https://clearbooksalpha.netlify.app',  // ← remplace par ton URL Netlify
     'http://localhost:3000',
     'http://localhost:5500',
     'http://127.0.0.1:5500'
